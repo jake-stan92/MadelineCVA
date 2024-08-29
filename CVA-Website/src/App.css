@@ -1,3 +1,23 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100dvh;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+/* home page css */
+.section {
+  padding: 1rem;
+}
+
+.quote-section {
+  background-color: #989e8b;
+  color: white;
 }
