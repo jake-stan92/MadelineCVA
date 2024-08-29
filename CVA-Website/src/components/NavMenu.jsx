@@ -5,9 +5,15 @@ const NavMenu = ({ isOpen }) => {
   return (
     <div className={isOpen ? "navMenu open" : "navMenu closed"}>
       <ul className="navList">
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact</li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/services">Services</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
       </ul>
     </div>
   );

@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <p>Madeline Traynor CVA</p>
+        <a href="/">Madeline Traynor CVA</a>
         <div className="hamburger" onClick={toggleHamburger}>
           <Hamburger isOpen={hamburgerOpen} />
         </div>
