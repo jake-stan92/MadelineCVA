@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import NavMenu from "./NavMenu";
 import "./Header.css";
@@ -10,6 +10,13 @@ const Header = () => {
     setHamburgerOpen(!hamburgerOpen);
     console.log(hamburgerOpen);
   };
+
+  useEffect(() => {
+    const html = document.querySelector("html");
+    if (html) {
+      html.style.overflow = hamburgerOpen ? "hidden" : "auto";
+    }
+  }, [hamburgerOpen]);
 
   return (
     <>

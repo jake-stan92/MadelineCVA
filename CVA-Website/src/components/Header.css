@@ -4,4 +4,6 @@
   align-items: center;
   padding: 1rem;
   background-color: #f8f4f1;
+  position: sticky;
+  top: 0;
 }

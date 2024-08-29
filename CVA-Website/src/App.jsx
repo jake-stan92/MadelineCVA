@@ -15,7 +15,7 @@ function App() {
           BUSINESS
         </h3>
         <p>img here</p>
-        <button>
+        <button className="homePage-button">
           <a href="/services">services</a>
         </button>
       </div>
@@ -29,7 +29,7 @@ function App() {
       <div className="section">
         <p>img here</p>
         <p>MEET MADELINE</p>
-        <button>
+        <button className="homePage-button">
           <a href="/about">About Me</a>
         </button>
       </div>

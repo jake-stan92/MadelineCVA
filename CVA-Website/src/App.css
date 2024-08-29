@@ -21,3 +21,19 @@ body,
   background-color: #989e8b;
   color: white;
 }
+
+.homePage-button {
+  background-color: #a34a21;
+  color: white;
+  border: none;
+  padding: 0.75rem 3rem;
+}
+
+button a {
+  text-decoration: none;
+}
+
+button a:visited {
+  text-decoration: none;
+  color: white;
+}

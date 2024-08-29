@@ -10,7 +10,8 @@
   transition: opacity ease-in 0.3s;
   visibility: visible;
   padding-top: 3rem;
-  height: 100dvh;
+  height: 100%;
+  overflow: hidden;
   opacity: 1;
 }
 
