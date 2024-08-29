@@ -1,0 +1,25 @@
+.navMenu {
+  height: 0;
+  background-color: rgb(240, 140, 140);
+  display: flex;
+  justify-content: center;
+}
+
+.open {
+  transition: opacity ease-in 0.3s;
+  visibility: visible;
+  padding-top: 3rem;
+  height: 300px;
+  opacity: 1;
+}
+
+.closed {
+  transition: opacity ease-out 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+}

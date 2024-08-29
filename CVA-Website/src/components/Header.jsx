@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Hamburger from "./Hamburger";
+import NavMenu from "./NavMenu";
+import "./Header.css";
 
 const Header = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -10,12 +12,15 @@ const Header = () => {
   };
 
   return (
-    <div className="header">
-      <p>Madeline Traynor CVA</p>
-      <div className="hamburger" onClick={toggleHamburger}>
-        <Hamburger isOpen={hamburgerOpen} />
+    <>
+      <div className="header">
+        <p>Madeline Traynor CVA</p>
+        <div className="hamburger" onClick={toggleHamburger}>
+          <Hamburger isOpen={hamburgerOpen} />
+        </div>
       </div>
-    </div>
+      <NavMenu isOpen={hamburgerOpen} />
+    </>
   );
 };
 
