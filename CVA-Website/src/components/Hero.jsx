@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 
 const Hero = () => {
@@ -6,7 +5,8 @@ const Hero = () => {
     <>
       <div className="poppyBG">
         <h1>
-          Creative <br></br>Virtual<br></br>Assistance
+          <span className="cursive">Creative </span>
+          <br></br>Virtual<br></br>Assistance
         </h1>
         {/* flower image bg here */}
         <div className="insetContent">
@@ -14,7 +14,8 @@ const Hero = () => {
             FOR ADVENTUROUS SOULS, TRAVEL FOCUSED AND WOMEN-OWNED BUSINESSES.
           </p>
           <p className="right-set-text">
-            FOR THE BIG <br></br>DREAMERS
+            FOR THE BIG <br></br>
+            <span className="emphasised">DREAMERS</span>
           </p>
         </div>
       </div>

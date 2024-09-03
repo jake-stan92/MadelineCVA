@@ -16,7 +16,7 @@ function App() {
         </h3>
         <p>img here</p>
         <button className="homePage-button">
-          <a href="/services">services</a>
+          <a href="/services">Services</a>
         </button>
       </div>
       <div className="section quote-section">
