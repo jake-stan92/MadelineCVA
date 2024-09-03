@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import NavMenu from "./NavMenu";
+import logo from "../assets/CVA-logo.webp";
 import "./Header.css";
 
 const Header = () => {
@@ -21,7 +22,9 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <a href="/">Madeline Traynor CVA</a>
+        <a href="/">
+          <img id="logo" src={logo}></img>
+        </a>
         <div className="hamburger" onClick={toggleHamburger}>
           <Hamburger isOpen={hamburgerOpen} />
         </div>

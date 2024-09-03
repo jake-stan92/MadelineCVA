@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -15,6 +18,9 @@ body,
 /* home page css */
 .section {
   padding: 1rem;
+  background-color: #f8f4f1;
+  display: grid;
+  gap: 1.5rem;
 }
 
 .quote-section {
@@ -29,11 +35,70 @@ body,
   padding: 0.75rem 3rem;
 }
 
+button {
+  width: 50%;
+  margin: auto;
+  font-family: "Cinzel", serif;
+}
+
 button a {
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
 }
 
 button a:visited {
   text-decoration: none;
   color: white;
+}
+
+.placeholderIMG {
+  width: 75%;
+  height: auto;
+  margin-left: 30%;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.cursive {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quote {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  padding: 2rem;
+}
+
+#quotationIMG {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  left: 40%;
+  margin-top: 20%;
+}
+
+#quotation-mark {
+  position: absolute;
+  font-size: 15rem;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0.2;
 }
