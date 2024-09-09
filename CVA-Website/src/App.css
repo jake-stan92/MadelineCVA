@@ -21,6 +21,7 @@
 .quote-section {
   background-color: #989e8b;
   color: white;
+  position: relative;
 }
 
 .homePage-button {
@@ -49,11 +50,18 @@ button a:visited {
 }
 
 .placeholderIMG {
+  padding: 0.5rem;
+  background-color: rgb(246, 214, 214);
+}
+
+#rightSetImage {
   width: 75%;
   height: auto;
   margin-left: 30%;
-  padding: 0.5rem;
-  background-color: white;
+}
+
+#centerImage {
+  width: 100%;
 }
 
 h3 {
@@ -73,7 +81,7 @@ h3 {
   font-weight: 400;
   font-size: 1.5rem;
   text-align: center;
-  position: relative;
+  /* position: relative; */
   z-index: 10;
   padding: 2rem;
 }
@@ -87,13 +95,28 @@ h3 {
 }
 
 #quotation-mark {
-  position: absolute;
   font-size: 15rem;
-  margin-top: 15%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  position: absolute;
+  top: 50;
   left: 0;
+  bottom: 0;
   right: 0;
   text-align: center;
   opacity: 0.2;
+}
+
+.meet-section {
+  font-family: "Cinzel", serif;
+}
+
+.meet-section h3 {
+  text-align: center;
+  color: #c67f43;
+  font-size: 2.25rem;
+}
+
+.meet-section p {
+  text-align: center;
+  font-size: 1.5rem;
 }

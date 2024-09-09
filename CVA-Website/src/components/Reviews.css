@@ -1,0 +1,35 @@
+.review-section {
+  background-color: #989e8b;
+  color: white;
+  font-family: "Cinzel", serif;
+}
+
+.review {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.review-section h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.review-section h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  z-index: 5;
+}
+
+#review-quotation-mark {
+  font-size: 50rem;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.1;
+}

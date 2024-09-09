@@ -18,7 +18,11 @@ function App() {
           <span className="cursive">Unique </span>
           BUSINESS
         </h3>
-        <img className="placeholderIMG" src={placeholder}></img>
+        <img
+          className="placeholderIMG"
+          id="rightSetImage"
+          src={placeholder}
+        ></img>
         <button className="homePage-button">
           <a href="/services">Services</a>
         </button>
@@ -32,9 +36,17 @@ function App() {
         {/* <img id="quotationIMG" src={quotation}></img> */}
         <p id="quotation-mark">"</p>
       </div>
-      <div className="section">
-        <p>img here</p>
-        <p>MEET MADELINE</p>
+      <div className="section meet-section">
+        <img
+          className="placeholderIMG"
+          id="centerImage"
+          src={placeholder}
+        ></img>
+        <h3>MEET MADELINE</h3>
+        <p>
+          Read about why I'm here and why we might just be the{" "}
+          <span className="cursive">perfect</span> match.
+        </p>
         <button className="homePage-button">
           <a href="/about">About Me</a>
         </button>
