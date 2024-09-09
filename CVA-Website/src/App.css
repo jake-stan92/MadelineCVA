@@ -6,15 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  /* height: 100dvh; */
-}
-
-body,
-#root {
-  /* height: 100%; */
-}
-
 /* home page css */
 .section {
   padding: 1rem;
@@ -98,7 +89,7 @@ h3 {
 #quotation-mark {
   position: absolute;
   font-size: 15rem;
-  margin-top: 25%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   left: 0;
