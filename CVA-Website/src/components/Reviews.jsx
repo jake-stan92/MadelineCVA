@@ -30,6 +30,7 @@ const Reviews = () => {
         </p>
         <p className="review-author">- Jade Scanlon, Creative VA Studio</p>
         <p id="review-quotation-mark">&quot;</p>
+        <div className="overlay"></div>
       </div>
     </div>
   );

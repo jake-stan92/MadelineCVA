@@ -10,6 +10,7 @@
   gap: 1rem;
   text-align: center;
   z-index: 1;
+  padding: 1rem 0.5rem;
 }
 
 .review-section h3 {
@@ -32,4 +33,12 @@
   bottom: 0;
   right: 0;
   opacity: 0.1;
+}
+
+.overlay {
+  position: absolute;
+  width: calc(100vw - 32px);
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 2;
 }
