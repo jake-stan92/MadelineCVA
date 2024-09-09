@@ -7,20 +7,24 @@
 }
 
 html {
-  height: 100dvh;
+  /* height: 100dvh; */
 }
 
 body,
 #root {
-  height: 100%;
+  /* height: 100%; */
 }
 
 /* home page css */
 .section {
   padding: 1rem;
-  background-color: #f8f4f1;
+  /* background-color: #f8f4f1; */
   display: grid;
   gap: 1.5rem;
+}
+
+.first {
+  margin-top: 60px;
 }
 
 .quote-section {

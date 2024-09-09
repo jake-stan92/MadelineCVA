@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Reviews from "./components/Reviews";
 import placeholder from "./assets/placeholder.svg";
-import quotation from "./assets/quotation.png";
+// import quotation from "./assets/quotation.png";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Hamburger from "./Hamburger";
 import NavMenu from "./NavMenu";
 import logo from "../assets/CVA-logo.webp";

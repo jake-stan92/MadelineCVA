@@ -1,9 +1,13 @@
 .navMenu {
-  height: 0;
   background-color: rgb(240, 140, 140);
   display: flex;
   justify-content: center;
   text-align: center;
+  position: fixed;
+  top: 60px;
+  /* height: 100%; */
+  width: 100%;
+  z-index: 98;
 }
 
 .open {
