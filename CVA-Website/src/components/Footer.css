@@ -1,0 +1,9 @@
+.footer {
+  background-color: #f8f4f1;
+  padding: 1rem;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "Cinzel", serif;
+}
